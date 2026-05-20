@@ -4,38 +4,11 @@ export default function App() {
 
       {/* HERO */}
       <header className="flex flex-col items-center justify-center flex-1 px-6 py-24 text-center">
-        <div className="mb-2 tracking-[0.25em] text-sm text-gray-500 uppercase">
-          Glenford Corp s.r.o.
-        </div>
-        <h1
-          className="text-6xl sm:text-8xl md:text-[120px] font-black uppercase tracking-[0.1em] leading-none select-none"
-          style={{
-            background: 'linear-gradient(180deg, #ffffff 0%, #c8c8c8 30%, #8a8a8a 60%, #c0c0c0 80%, #ffffff 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text',
-            filter: 'drop-shadow(0 0 30px rgba(255,255,255,0.15))',
-          }}
-        >
-          GLENFORD
-        </h1>
-
-        {/* CORP s linkami */}
-        <div className="flex items-center gap-4 mt-2 mb-16">
-          <div className="h-px w-16 sm:w-28 bg-gradient-to-r from-transparent to-gray-500" />
-          <span
-            className="text-sm sm:text-base tracking-[0.5em] font-light uppercase"
-            style={{
-              background: 'linear-gradient(180deg, #ffffff 0%, #aaaaaa 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-            }}
-          >
-            CORP
-          </span>
-          <div className="h-px w-16 sm:w-28 bg-gradient-to-l from-transparent to-gray-500" />
-        </div>
+        <img
+          src="/logo.webp"
+          alt="Glenford Corp"
+          className="w-full max-w-xl sm:max-w-2xl md:max-w-3xl mb-16 select-none"
+        />
 
         {/* Svislý oddělovač */}
         <div className="w-px h-12 bg-gradient-to-b from-transparent via-gray-600 to-transparent mb-16" />
