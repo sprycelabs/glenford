@@ -81,7 +81,7 @@ export default function App() {
           <br />
           Primátorská 296/38, Libeň (Praha 8), 180 00 Praha
           <br />
-          ID datové schránky: 8xq2ue8&nbsp;&nbsp;·&nbsp;&nbsp;Číslo bankovního účtu: 368 512 688 / 0300 nebo 7064728369 / 0800
+          ID datové schránky: 8xq2ue8&nbsp;&nbsp;·&nbsp;&nbsp;Číslo bankovního účtu: 368512688/0300 nebo 7064728369/0800
         </p>
       </footer>
 
